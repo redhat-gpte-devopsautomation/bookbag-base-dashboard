@@ -119,6 +119,10 @@ var config = {
         content: path.join(base_url, '..', 'console')
       },
       {
+        name: 'applications_url',
+        content: process.env.APPLICATIONS_URL,
+      },
+      {
         name: 'slides_url',
         content: path.join(base_url,'..', 'slides')
       },
